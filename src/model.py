@@ -28,7 +28,7 @@ class ChatModel:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto",
-            quantization_config=quantization_config,
+            #quantization_config=quantization_config,
             cache_dir=CACHE_DIR,
             token=ACCESS_TOKEN,
         )
