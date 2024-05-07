@@ -1,4 +1,4 @@
-# llm-chatbot-rag
+# IA Chatbot
 
 ![Screenshot](/images/example.jpg)
 
